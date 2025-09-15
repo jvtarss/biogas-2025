@@ -31,7 +31,7 @@ try:
 
     grand_total = len(df)
 
-    print("Tabela de Amostras por Biomassa:")
+    print("tabela de amostras por biomassa")
     print(result_df.to_string(index=False))
     print("-" * 40)
     print(f"numero total de amostras: {grand_total}")
